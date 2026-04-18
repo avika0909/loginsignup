@@ -13,6 +13,8 @@ mongo = PyMongo(app)
 @app.route('/home')
 def home():
     return "Welcome to the Authentication Panel API (MongoDB)!"
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
 @app.route('/login', methods=['POST'])
 def login():
