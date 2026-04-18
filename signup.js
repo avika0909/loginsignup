@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             return;
         }
-        fetch('http://127.0.0.1:5000/register', {  // Adjust URL if needed
+        fetch('https://backend-appp-d3eshpcacmasccd3.centralindia-01.azurewebsites.net/register', {  // Adjust URL if needed
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
